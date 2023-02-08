@@ -13,7 +13,7 @@
 
 body{
     background-image: url(images/CosmicCoffee.png);
-    background-size: 100px;
+    background-size: 150px;
 }
 a{
     text-decoration: none;
@@ -67,7 +67,8 @@ section{
     background-color: darkcyan;
     width: 900px;
     height: 900px;
-    border: 4px solid gold;
+    border: 9px solid gold;
+    border-radius: 3px;
     text-align: center;
     padding: 90px;
 }
