@@ -10,6 +10,7 @@
     margin: 4px 2px;
     cursor: pointer;
   }
+  
 
 body{
     background-image: url(images/CosmicCoffee.png);
@@ -36,6 +37,9 @@ header div{
 header a{
     padding: 8px;
 }
+header a:hover{
+    background-color: rgb(95, 189, 0);
+}
 
 nav{
     background-color: aliceblue;
@@ -51,8 +55,8 @@ nav a{
     color: white;
     
 }
-nav a :hover{
-    background-color: greenyellow;
+nav a:hover{
+    background-color: rgb(119, 31, 31);
 }
 
 aside{
@@ -72,6 +76,6 @@ section{
     text-align: center;
     padding: 90px;
 }
-section img{
+section div img{
     width: 800px;
 }
