@@ -4,7 +4,7 @@ let password = '';
 
 
 function signin() {
-    username = prompt("What is your name?");
+    username = prompt("Username?");
     password = prompt("Password?")
     if(username != 'RP', password != '12345'){
         alert('Iniviled User');
