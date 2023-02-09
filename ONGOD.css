@@ -49,14 +49,16 @@ nav{
     margin: auto;
 }
 nav a{
-    padding: 14px;
+    padding: 7px;
     text-align: center;
     background-color: brown;
-    color: white;
+    border: 4px solid brown;
+    color: black;
     
 }
 nav a:hover{
     background-color: rgb(119, 31, 31);
+    color: white;
 }
 
 aside{
