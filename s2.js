@@ -13,7 +13,7 @@ let pie2 = function(cinnamon) {
 function whodat() {
     myname = prompt("What is your name?");
     if(myname != 'RP'){
-        alert('fuck off')
+        alert('fuck off');
     } else {
         alert("Hello, " + myname);
     }
