@@ -79,7 +79,27 @@
     height: 35px;
   }
 
+.asideR{
+    float: right;
+    background-color: aquamarine;
+    text-align: center;
+    width: 200px;
+    position: fixed;
+    top: 160px;
+    right: 10px;
+    padding: 8px 0px;
+}
 
+.asideL{
+  float: left;
+  background-color: aquamarine;
+  text-align: center;
+  width: 200px;
+  position: fixed;
+  top: 160px;
+  left: 10px;
+  padding: 8px 0px;
+}
   
 body{
     background-image: url(images/CosmicCoffee.png);
@@ -130,16 +150,7 @@ nav a:hover{
     color: white;
 }
 
-aside{
-    float: right;
-    background-color: aquamarine;
-    text-align: center;
-    width: 200px;
-    position: fixed;
-    top: 160px;
-    right: 10px;
-    padding: 8px 0px;
-}
+
 
 section{
     margin: auto;

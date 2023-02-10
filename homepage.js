@@ -50,3 +50,25 @@ function signin() {
     }
     
 }
+
+// let Urateing = '';
+
+
+// function rateing(){
+//   Urateing = prompt("Would you like to leave a review? (y/n)");
+//   if(Urateing = 'n'){
+//     alert("No need to rush")
+//   }else{
+//     rateStabr = prompt("how did we do?(0-5)");
+//      rateComment = prompt("What to improve?")
+//   }do{
+//     newReateing = prompt("Write another one?(y/n)");
+//   }while{
+//     document.getElementById("rate").innerHTML = rateStabr +"/5  " + rateComment;
+//   }if(newReateing == "y"){
+//     newReateing = Urateing;
+//   }else{
+//     alert('Thank you for your time!')
+//   }
+
+// }
