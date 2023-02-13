@@ -162,6 +162,9 @@ section{
     text-align: center;
     padding: 90px;
 }
-/* section img{
-    width: 800px;
-} */
+
+
+#rate{
+  max-width: 50%;
+  height: 50%;
+}

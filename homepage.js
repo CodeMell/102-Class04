@@ -51,24 +51,34 @@ function signin() {
     
 }
 
-// let Urateing = '';
+
+let userRating = "";
+let rateStar = "";
+
+function rateing(){
+  userRating = prompt("Would you like to leave a review? y/n");
+  if(userRating == "n"){
+    alert("no need to rush");
+  }
+  else{
+    rateStar = prompt("how did we do 1-5");
+    rateComment = prompt("what can we improve?");
+  }
+alert("Thank you for your time!");
+siteRate();
 
 
-// function rateing(){
-//   Urateing = prompt("Would you like to leave a review? (y/n)");
-//   if(Urateing = 'n'){
-//     alert("No need to rush")
-//   }else{
-//     rateStabr = prompt("how did we do?(0-5)");
-//      rateComment = prompt("What to improve?")
-//   }do{
-//     newReateing = prompt("Write another one?(y/n)");
-//   }while{
-//     document.getElementById("rate").innerHTML = rateStabr +"/5  " + rateComment;
-//   }if(newReateing == "y"){
-//     newReateing = Urateing;
-//   }else{
-//     alert('Thank you for your time!')
-//   }
+}
 
-// }
+
+
+
+function siteRate(){
+  for (let x = 0; x <= rateStar; x += 1) {
+     {
+      document.getElementById("rate").innerHTML += '<img id="rate" src="images/star.png"></img>';
+    }
+    
+  }
+  document.getElementById("Crate").innerHTML +=  rateComment;
+}
