@@ -74,7 +74,7 @@ siteRate();
 
 
 function siteRate(){
-  for (let x = 0; x <= rateStar; x += 1) {
+  for (let x = 1; x <= rateStar; x += 1) {
      {
       document.getElementById("rate").innerHTML += '<img id="rate" src="images/star.png"></img>';
     }

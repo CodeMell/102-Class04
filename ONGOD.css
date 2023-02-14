@@ -76,14 +76,15 @@
     align-items: center;
     color: rgb(255, 255, 255);
     background: rgba(0, 0, 0, 0.3);
-    height: 35px;
+    height: 36px;
   }
 
 .asideR{
     float: right;
-    background-color: aquamarine;
+    border: 9px solid gold;
+    background-color: darkred;
     text-align: center;
-    width: 200px;
+    width: 380px;
     position: fixed;
     top: 160px;
     right: 10px;
@@ -92,18 +93,21 @@
 
 .asideL{
   float: left;
-  background-color: aquamarine;
+  color: lavender;
+  border: 9px solid gold;
+  background-color: darkblue;
   text-align: center;
-  width: 200px;
+  width: 380px;
   position: fixed;
   top: 160px;
   left: 10px;
   padding: 8px 0px;
+  
 }
   
 body{
     background-image: url(images/CosmicCoffee.png);
-    background-size: 150px;
+    background-size: 10%;
 }
 a{
     text-decoration: none;
@@ -115,23 +119,27 @@ header{
     margin: auto;
 }
 header img{
-    max-width: 400px;
+  padding: 4px;
+    max-width: 25%;
     height: auto;
 }
 header div{
     float: right;
     display: block;
+    text-align: center;
     background-color: chartreuse;
 }
 header a{
-    padding: 8px;
+    padding: 4px;
 }
 header a:hover{
     background-color: rgb(95, 189, 0);
+    color: white;
 }
 
 nav{
     background-color: aliceblue;
+    border-bottom:9px solid gold;
     text-align: center;
     padding: 10px;   
     width: 1680px;
@@ -154,17 +162,17 @@ nav a:hover{
 
 section{
     margin: auto;
-    background-color: darkcyan;
+    background-color: darkslategray;
     width: 900px;
     height: 900px;
     border: 9px solid gold;
     border-radius: 3px;
     text-align: center;
     padding: 90px;
+    color: lavender;
 }
 
 
-#rate{
-  max-width: 50%;
-  height: 50%;
+p img{
+  width: 20%;
 }
