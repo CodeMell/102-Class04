@@ -38,6 +38,7 @@ function nextImage(direction) {
 
 
 
+
 function signin() {
     username = prompt("Username?");
     password = prompt("Password?")
@@ -63,6 +64,7 @@ function rateing(){
   else{
     rateStar = prompt("how did we do 1-5");
     rateComment = prompt("what can we improve?");
+    document.getElementById("RateSite").style.visibility="hidden";
   }
 alert("Thank you for your time!");
 siteRate();
@@ -82,3 +84,4 @@ function siteRate(){
   }
   document.getElementById("Crate").innerHTML +=  rateComment;
 }
+
